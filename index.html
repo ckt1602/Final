@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    @keyframes dinosaurAnimation {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(200px); }
+      100% { transform: translateX(0); }
+    }
+
+    .dinosaur {
+      position: relative;
+      top: 100px;
+      left: 0;
+      animation: dinosaurAnimation 4s linear infinite;
+    }
+     </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+      <h1 class="display-4">Welcome to My  Website!</h1>
+      <p class="lead">COKE TSAKA JD MINIMIX KO.</p>
+    </div>
+  </header>
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>My Name is John Raphael Vargas.</p>
+    <img src="IMG_20221210_224550.jpg" alt="Your Name" class="img-fluid">
+  </section>
+
+  <section id="portfolio" class="container">
+    <h2>Portfolio</h2>
+    <p>STUDYING AT GLOBAL RECIPROCAL COLLEGES</p>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <img src="logo.jpeg" alt="Project" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Project Title</h5>
+            <p class="card-text">PROJECT PORTFOLIO</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact Me</h2>
+    <p>09971897482</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+      <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+       <div class="dinosaur">
+    <img src="dino.png" alt="Dinosaur" width="200px">
+  </div>
